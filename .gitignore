@@ -4,3 +4,5 @@ venv-sspt/
 *.csv
 
 *.zip
+
+.DS_store
