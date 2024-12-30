@@ -6,3 +6,7 @@ venv-sspt/
 *.zip
 
 .DS_store
+
+data-sci/
+
+my_dir/
