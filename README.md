@@ -1,8 +1,38 @@
-This project is an extension of a Coursera course "Sequence, Time Series and Prediction" assignemnt. 
+Predicting Sunspots with DNN, Simple RNN and LSTM
+=================================================
 
-More work is yet to be published and updated here.
+***Time Series Data Analysis***
 
-Time series features and their visualisation
+# Introduction
+
+![sunpots-nasa-photo](https://spaceplace.nasa.gov/solar-activity/en/solar-activity2.en.jpg)
+
+Topic (Background):
+
+Sunspots are temporary dark regions on the sun's surface. They are a key measure of solar activity, which affects many aspects of human society on Earth, such as navigation systems, power systems, and spacecrafts etc. Predicting the number of sunspots helps scientists to minimise its negative impact. 
+
+Problem (Issues): 
+
+This project aims to devise a robust Deep Learning (DL) model to predict sunspot numbers by recognising patterns in sunspot time series data. 
+
+Objectives (Outline project):
+
+1. Time series analysis of sunspots with statistics tool
+
+1. Baseline prediction - moving average and data shifting
+
+1. Use DNN to make sunspot number prediction
+    - Hyperparameter tuning
+
+1. Use RNN to make sunspot number prediction
+    - Hyperparameter tuning
+
+1. Use LSTM to make sunspot number prediction
+    - Hyperparameter tuning
+
+1. Compare performance
+
+Source of data: [Kaggle Sunspots](https://www.kaggle.com/datasets/robervalt/sunspots/data)
 
 ## Time Series Analysis with Statistical Tools
 
@@ -14,6 +44,8 @@ Time series features and their visualisation
 
 - Data windowing
 - Data Slicing with Tensorflow -->
+
+Table: The list of hyperparameter combinations
 
 Tools
 
@@ -30,7 +62,9 @@ Trivial questions
 
 - What's the difference between shape (30,) and shape (30, 1)?
 
-## Logs
+# Reference
+
+# Logs
 
 2024-12-30
 
