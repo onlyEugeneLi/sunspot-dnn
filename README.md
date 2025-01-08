@@ -152,3 +152,12 @@ Trivial questions
 
 - Use notebooks to describe data and justify actions. 
 - Use README.md to describe experitment method, key findings, and conclusions. Point reader to corresponding notebook whenever needed. 
+
+2025-1-8
+
+- Visualise experiment archietecture. 
+- Readers need to know the experiment result and the most recommended method. (Supported with charts)
+- Loss decline curve
+- Performance comparison table and candle chart.
+- Null hypothesis to confirm the performance difference. Need to repeat each algorithm 10 times and collect MAEs and MSEs. 
+- p-value table. 
